@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#022947"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/swit1"
+        android:layout_width="329dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:text="Welcome to Sweet connections..."
+        android:textColor="#F6B1B1"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/coup2"
+        android:layout_width="216dp"
+        android:layout_height="233dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coup1"
+        app:srcCompat="@drawable/bride" />
+
+    <TextView
+        android:id="@+id/swit2"
+        android:layout_width="279dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="64dp"
+        android:gravity="center"
+        android:text="..where the sweet love begins and never ends.."
+        android:textColor="#F1D2D2"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coup2"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <ImageView
+        android:id="@+id/coup1"
+        android:layout_width="400dp"
+        android:layout_height="307dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swit1"
+        app:srcCompat="@drawable/pic1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

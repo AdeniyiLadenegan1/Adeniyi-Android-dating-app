@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7AEC94"
+    tools:context=".profile">
+
+    <ImageView
+        android:id="@+id/profilePic"
+        android:layout_width="247dp"
+        android:layout_height="265dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="92dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gizmo" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="390dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:background="#0F2317"
+        android:fontFamily="@font/montserrat"
+        android:gravity="bottom"
+        android:text="Do you realize how awesome you are? you are the most beautiful being in all of God's creation and there is somebody waiting to love you, dont make that person die before finding you. take a picture and upload. Someone will find you."
+        android:textColor="#D8C6C6"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="102dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="60dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView17"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:srcCompat="@drawable/afric1" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="128dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profilePic"
+        app:srcCompat="@drawable/couple7" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="119dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profilePic"
+        app:srcCompat="@drawable/wed" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/toLove"
+        android:layout_width="44dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="12dp"
+        android:clickable="true"
+        android:foreground="@drawable/heart5"
+        android:onClick="toLove"
+        android:rotation="270"
+        app:backgroundTint="#479307"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="#800505"
+        app:srcCompat="@drawable/heart5" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/toWelcome"
+        android:layout_width="45dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="12dp"
+        android:clickable="true"
+        android:foreground="@drawable/heart5"
+        android:onClick="toWelcome"
+        android:rotation="90"
+        app:backgroundTint="#6B8106"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/heart5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

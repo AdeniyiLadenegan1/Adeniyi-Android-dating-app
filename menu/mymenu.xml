@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="MainActivity"
+        android:id="@+id/MainActivity" />
+
+    <item
+        android:title="welcome"
+        android:id="@+id/welcome" />
+
+    <item
+        android:title="people"
+        android:id="@+id/people" />
+
+    <item
+        android:title="lovezone"
+        android:id="@+id/lovezone" />
+
+    <item
+        android:title="sites"
+        android:id="@+id/sites" />
+
+    <item
+        android:title="profile"
+        android:id="@+id/profile" />
+</menu>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7AEC94"
+    tools:context=".profile">
+
+    <ImageView
+        android:id="@+id/profilePic"
+        android:layout_width="281dp"
+        android:layout_height="303dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="448dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gizmo" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="366dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:background="#0F2317"
+        android:fontFamily="@font/montserrat"
+        android:gravity="bottom"
+        android:text="Do you realize how awesome you are? you are the most beautiful being in all of God's creation and there is somebody waiting to love you, dont make that person die before finding you. take a picture and upload. Someone will find you."
+        android:textColor="#D8C6C6"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="91dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:srcCompat="@drawable/afric1" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="128dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginBottom="32dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/couple7" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="119dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="32dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:srcCompat="@drawable/wed" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/firstPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#93B5C5"
+    tools:context=".people">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="181dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:shadowColor="#420000"
+        android:text="Welcome to"
+        android:textColor="#F6F0F0"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="210dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="276dp"
+        android:background="#DFF1C5"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:text="SWT CXNS"
+        android:textColor="#3C0101"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="319dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="9dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/couple3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="303dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="7dp"
+        android:gravity="center"
+        android:text="Welcome to Sweet Connections, where we make your dreams and desires come through. take a tour and enjoy the amazing benefits you stand to  please the start ion to begin."
+        android:textColor="#0B0606"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="93dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="80dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/bride" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="89dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="100dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/photo4" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/first"
+        android:layout_width="39dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="4dp"
+        android:clickable="true"
+        android:foreground="@drawable/heart5"
+        android:onClick="firstP"
+        android:rotation="270"
+        android:scaleType="fitXY"
+        app:backgroundTint="#1E850C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.478"
+        app:srcCompat="@drawable/heart5" />
+
+    <ImageButton
+        android:id="@+id/sendmail"
+        android:layout_width="48dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="48dp"
+        android:onClick="mails"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toEndOf="@+id/hkp1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pic2"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/mailtext"
+        android:layout_width="132dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="112dp"
+        android:background="#C9EFEF"
+        android:gravity="center"
+        android:text="Send message to an amazing and super special person you love so much. With us, you can reach millions of exceptional people around the world."
+        android:textColor="#330202"
+        android:textColorHighlight="#150101"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageButton
+        android:id="@+id/unsndmail"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#0E0101"
+        android:onClick="rmvtxt1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/hkp1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pic2" />
+
+    <ImageButton
+        android:id="@+id/hookups"
+        android:layout_width="48dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="200dp"
+        android:onClick="pipsho"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/hkp4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/heart4" />
+
+    <ImageView
+        android:id="@+id/hkp2"
+        android:layout_width="87dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="72dp"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/hkp3"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/hkp3"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/girl" />
+
+    <ImageView
+        android:id="@+id/hkp1"
+        android:layout_width="97dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="60dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/guy2" />
+
+    <ImageView
+        android:id="@+id/hkp3"
+        android:layout_width="101dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="15dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/hkp2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/male2" />
+
+    <ImageView
+        android:id="@+id/hkp4"
+        android:layout_width="293dp"
+        android:layout_height="203dp"
+        android:layout_marginBottom="40dp"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/first"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/people" />
+
+    <ImageButton
+        android:id="@+id/hkgon"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="120dp"
+        android:backgroundTint="#130909"
+        android:onClick="rmvhks"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
